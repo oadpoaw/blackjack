@@ -1,0 +1,15 @@
+{
+  "name": "blackjack",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node .",
+    "prebuild": "rimraft dist",
+    "build": "tsc --build"
+  },
+  "dependencies": {
+    "@types/inquirer": "^7.3.1",
+    "inquirer": "^7.3.3"
+  }
+}
