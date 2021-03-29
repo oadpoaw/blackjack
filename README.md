@@ -9,6 +9,7 @@ Blackjack game implementation in typescript as a console game.
 ### Installation
 ```sh
 git clone https://github.com/oadpoaw/blackjack.git
+cd blackjack
 npm install
 npm run build
 ```
